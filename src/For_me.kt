@@ -9,6 +9,7 @@ fun main(){
     workers.add(Teacher("Hikmatullo",25,"Mathematic"))
 
     for (worker in workers) {
-        println(worker.work())
+        worker.name()
+        worker.work()
     }
 }
