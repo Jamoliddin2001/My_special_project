@@ -9,6 +9,8 @@ fun main(){
     workers.add(Programmer("Husniddin",20,"C++, Java, Python, Tajik"))
     workers.add(Teacher("Hikmatullo",26,"Mathematic"))
 
+    println((Math.random()*100).toInt())
+
     for (worker in workers) {
         worker.name()
         worker.work()
