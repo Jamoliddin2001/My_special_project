@@ -1,5 +1,5 @@
 fun main(){
-    //println("Jamoliddin")
+    println("Jamoliddin")
     //println((1..3).toList())
     val workers= mutableListOf<Worker>()
     workers.add(Programmer("Jamoliddin",20,"Java and Kotlin"))
