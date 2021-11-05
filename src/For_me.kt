@@ -8,7 +8,7 @@ fun main(){
     workers.add(Programmer("Dovar",20,"JavaScript and Go"))
     workers.add(Programmer("Behzod",21,"C++ and PHP"))
     workers.add(Programmer("Husniddin",20,"C++, Java, Python, Tajik"))
-    //workers.add(Teacher("Hikmatullo",26,"Mathematic"))
+    workers.add(Teacher("Hikmatullo",26,"Mathematic"))
 
     println((Math.random()*100).toString())
 
