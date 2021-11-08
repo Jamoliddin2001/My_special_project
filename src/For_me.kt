@@ -11,6 +11,7 @@ fun main(){
     workers.add(Teacher("Hikmatullo",26,"Mathematic"))
     workers.add(Programmer("Nassim",20,"JavaScript and C++"))
     workers.add(Teacher("Doston",22,"Khimik"))
+    workers.add(Programmer("Idibek",16,"C++ and Kotlin"))
 
     println((Math.random()*100).toString())
 
