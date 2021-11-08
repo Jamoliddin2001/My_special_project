@@ -13,7 +13,7 @@ fun main(){
     workers.add(Teacher("Doston",22,"Khimik"))
     workers.add(Programmer("Idibek",16,"C++ and Kotlin"))
 
-    println((Math.random()*100).toString())
+    println((Math.random()*10).toString())
 
     for (worker in workers) {
         worker.name()
