@@ -10,9 +10,9 @@ fun main(){
     workers.add(Programmer("Husniddin",20,"C++, Java, Python, Tajik"))
     workers.add(Teacher("Hikmatullo",26,"Mathematic"))
     workers.add(Programmer("Nassim",20,"JavaScript and C++"))
-    workers.add(Teacher("Doston",22,"Khimik"))  
+    workers.add(Teacher("Doston",22,"Khimik"))
 
-    println((Math.random()*10).toString())
+    println((Math.random()*11).toString())
 
     for (worker in workers) {
         worker.name()
