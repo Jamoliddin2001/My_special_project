@@ -6,7 +6,6 @@ public class Ali {
     public static void main(String[] args) {
 
         int N;
-
         Scanner scan=new Scanner(System.in);
         N=scan.nextInt();
 
