@@ -3,6 +3,7 @@
     displayMessage(::morning)
     displayMessage(::evening)
 }
+
 fun displayMessage(mes: () -> Unit){
     mes()
 }
