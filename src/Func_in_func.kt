@@ -14,9 +14,9 @@ fun evening(){
 }*/
 fun main() {
 
-    action(5, 3, ::sum)         // 8
-    action(5, 3, ::multiply)    // 15
-    action(5, 3, ::subtract)    // 2
+    action(5, 3, ::sum)
+    action(5, 3, ::multiply)
+    action(5, 3, ::subtract)
 }
 
 fun action (n1: Int, n2: Int, op: (Int, Int)-> Int){
