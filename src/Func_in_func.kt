@@ -7,6 +7,7 @@
 fun displayMessage(mes: () -> Unit){
     mes()
 }
+
 fun morning(){
     println("Good Morning")
 }
