@@ -1,5 +1,4 @@
 /*fun main() {
-
     displayMessage(::morning)
     displayMessage(::evening)
 }
