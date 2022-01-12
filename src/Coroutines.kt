@@ -21,17 +21,17 @@ import kotlinx.coroutines.*
 //    println("Hello Coroutines")
 //}
 
-//suspend fun main()= coroutineScope{
-//    launch{ doWork() }
-//
-//    println("Hello Coroutines")
-//}
-//suspend fun doWork(){
-//    for(i in 0..5){
-//        println(i)
-//        delay(400L)
-//    }
-//}
+suspend fun main()= coroutineScope{
+    launch{ doWork() }
+
+    println("Hello Coroutines")
+}
+suspend fun doWork(){
+    for(i in 0..5){
+        println(i)
+        delay(400L)
+    }
+}
 
 //suspend fun main()= coroutineScope{
 //
@@ -79,14 +79,14 @@ import kotlinx.coroutines.*
 //    println("End")
 //}
 
-suspend fun main()= coroutineScope {
-    val job = launch(start = CoroutineStart.LAZY) {
-        println(1)
-        delay(1000)
-        println("Courutina has started")
-    }
-
-    delay(1000)
-    job.start()
-    println("Other method")
-}
+//suspend fun main()= coroutineScope {
+//    val job = launch(start = CoroutineStart.LAZY) {
+//        println(1)
+//        delay(1000)
+//        println("Courutina has started")
+//    }
+//
+//    delay(1000)
+//    job.start()
+//    println("Other method")
+//}
